@@ -161,7 +161,7 @@ const WeddingCard: React.FC = () => {
                     {/* Rest of the component remains the same */}
                     <CardContent className="p-8 md:p-12 mt-7">
                         <div className="text-center mb-12">
-                            <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-2xl mx-auto font-cursive">
+                            <p className="text-xl md:text-xl text-gray-700 leading-relaxed max-w-2xl mx-auto font-cursive">
                                 Together with our families, we invite you to celebrate our special day as we begin our journey as one.
                             </p>
                         </div>
@@ -169,7 +169,7 @@ const WeddingCard: React.FC = () => {
                         {/* Engagement Section */}
                         <div className="mb-12">
                             <div className="text-center mb-8">
-                                <h2 className="text-3xl font-cursive text-rose-800 mb-6">Our Engagement</h2>
+                                <h2 className="text-3xl font-cursive text-rose-800 mb-6 font-bold">Our Engagement</h2>
                                 <div className="flex flex-col md:flex-row items-center gap-8 bg-white/50 p-6 rounded-2xl border border-rose-100 shadow-sm">
                                     <div className="w-full md:w-1/2 aspect-video md:aspect-square relative overflow-hidden rounded-xl">
                                         <img
@@ -179,10 +179,10 @@ const WeddingCard: React.FC = () => {
                                         />
                                     </div>
                                     <div className="w-full md:w-1/2 text-left space-y-4">
-                                        <p className="text-lg text-gray-700 leading-relaxed font-cursive">
+                                        <p className="text-xl text-gray-700 leading-relaxed font-cursive">
                                             Surrounded by our nearest and dearest, we took the first step towards forever. It was a day filled with laughter, blessings, and the promise of a beautiful future together.
                                         </p>
-                                        <p className="text-lg text-gray-700 leading-relaxed font-cursive">
+                                        <p className="text-xl text-gray-700 leading-relaxed font-cursive">
                                             With rings exchanged and hearts united, we celebrated our love and commitment, marking the beginning of our wedding festivities.
                                         </p>
                                     </div>
@@ -201,7 +201,7 @@ const WeddingCard: React.FC = () => {
                                 <CardContent className="text-center p-6 md:p-8">
                                    
 
-                                    <p className="text-2xl text-gray-800 mb-8 italic font-cursive">Sunday, February 22nd, 2026</p>
+                                    <p className="text-2xl text-gray-800 mb-8 italic font-cursive font-bold">Sunday, February 22nd, 2026</p>
 
                                     <div className="grid md:grid-cols-2 gap-8 items-start relative">
                                         {/* Vertical Separator for Desktop */}
@@ -216,13 +216,13 @@ const WeddingCard: React.FC = () => {
                                             <div className="space-y-2">
                                                 <div className="flex items-center justify-center gap-2 text-gray-700 bg-white/50 py-1 px-3 rounded-full inline-flex">
                                                     <Clock className="w-2 h-4" />
-                                                    <span className="font-cursive">10:05 AM (Mesha Lagnam)</span>
+                                                    <span className="font-cursive font-bold">10:05 AM (Mesha Lagnam)</span>
                                                 </div>
                                                 <div className="flex flex-col items-center gap-1 text-gray-600 mt-2">
                                                     <div className="flex items-center gap-2">
-                                                        <span className="text-sm italic font-cursive font-bold">Kateel Sri Durgaparameshwari Temple</span>
+                                                        <span className="text-lg italic font-cursive">Kateel Sri Durgaparameshwari Temple</span>
                                                     </div>
-                                                    <span className="text-sm italic font-cursive font-bold">Kateel</span>
+                                                    <span className="text-lg italic font-cursive">Kateel</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -239,13 +239,13 @@ const WeddingCard: React.FC = () => {
                                             <div className="space-y-2">
                                                 <div className="flex items-center justify-center gap-2 text-gray-700 bg-white/50 py-1 px-3 rounded-full inline-flex">
                                                     <Clock className="w-4 h-4" />
-                                                    <span className="font-cursive">12:30 PM Onwards</span>
+                                                    <span className="font-cursive font-bold">12:30 PM Onwards</span>
                                                 </div>
                                                 <div className="flex flex-col items-center gap-1 text-gray-600 mt-2">
                                                     <div className="flex items-center gap-2">
-                                                        <span className="text-sm italic font-cursive font-bold">Shree Narayanaguru Sabha Bhavana</span>
+                                                        <span className="text-lg italic font-cursive">Shree Narayanaguru Sabha Bhavana</span>
                                                     </div>
-                                                    <span className="text-sm italic font-cursive font-bold">Onthibettu, Hiriyadaka</span>
+                                                    <span className="text-lg italic font-cursive">Onthibettu, Hiriyadaka</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -261,7 +261,7 @@ const WeddingCard: React.FC = () => {
                             <div className="my-8 h-px bg-gradient-to-r from-transparent via-rose-300 to-transparent" />
 
                             <div className="bg-gradient-to-r from-rose-50 to-pink-50 rounded-2xl p-8 border border-rose-100">
-                                <p className="text-gray-700 mb-6 italic font-cursive font-bold">
+                                <p className="text-gray-800 mb-6 font-cursive font-bold">
                                     We can't wait to celebrate with you! Click the buttons below to find the venue locations.
                                 </p>
                                 <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -288,7 +288,7 @@ const WeddingCard: React.FC = () => {
 
                         {/* Footer */}
                         <div className="text-center text-gray-500">
-                            <p className="text-sm font-cursive font-bold">
+                            <p className="text-lg font-cursive font-bold">
                                 "Two souls, one heart, forever together"
                             </p>
                         </div>
