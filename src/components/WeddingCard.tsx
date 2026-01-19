@@ -267,7 +267,7 @@ const WeddingCard: React.FC = () => {
                                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                                     <Button
                                         size="lg"
-                                        className="bg-rose-600 hover:bg-rose-700 text-white gap-2 rounded-full px-8 font-cursive font-bold"
+                                        className="bg-rose-600 hover:bg-rose-700 text-white gap-2 rounded-full px-8 font-cursive font-extrabold"
                                         onClick={() => window.open('https://maps.app.goo.gl/5RABFi7JFYCQgyFe7', '_blank')}
                                     >
                                         <MapPin className="w-4 h-4" />
@@ -276,7 +276,7 @@ const WeddingCard: React.FC = () => {
                                     <Button
                                         size="lg"
                                         variant="outline"
-                                        className="border-rose-200 text-rose-700 hover:bg-rose-50 gap-2 rounded-full px-8 font-cursive font-bold"
+                                        className="border-rose-200 text-rose-700 hover:bg-rose-50 gap-2 rounded-full px-8 font-cursive font-extrabold"
                                         onClick={() => window.open('https://maps.app.goo.gl/P33ZWdYzxne7ZLXAA', '_blank')}
                                     >
                                         <MapPin className="w-4 h-4" />
